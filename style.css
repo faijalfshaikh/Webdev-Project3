@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#nav {
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.gola{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+#navbar-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#navbar-2 h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#navbar-2 h4 span {
+    font-size: 12px;
+    color: blue;
+}
+
+#nav2 {
+    height: 80px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0px 10px;
+}
+
+#nav2 h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 150px);
+    /* background-color: aquamarine; */
+}
+
+#text-content {
+    height: 45%;
+    /* background-color: brown; */
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 100%;
+    width: 40%;
+    /* background-color: springgreen; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem h4 {
+    font-size: 90px;
+    font-weight: 400;
+}
+
+#image-content {
+    height: 55%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#image-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 10px;
+}
+
+#image-content::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
+#image-content img {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
